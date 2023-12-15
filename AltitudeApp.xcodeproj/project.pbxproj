@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7146EEB32AADBC2A009C0F3A /* HomeViewController + CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7146EEB22AADBC2A009C0F3A /* HomeViewController + CollectionView.swift */; };
+		7146EEB52AADBD1A009C0F3A /* AltimeterCoordinateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7146EEB42AADBD1A009C0F3A /* AltimeterCoordinateCollectionViewCell.swift */; };
+		71575DA82AA7DAB2003DF55C /* HomeViewController + User Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71575DA72AA7DAB2003DF55C /* HomeViewController + User Location.swift */; };
+		71575DAE2AA7E2A7003DF55C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71575DAD2AA7E2A7003DF55C /* Extensions.swift */; };
+		71575DB02AA7E4F0003DF55C /* MapTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71575DAF2AA7E4F0003DF55C /* MapTypeViewController.swift */; };
+		71575DB82AA9137B003DF55C /* GPSSignalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71575DB72AA9137B003DF55C /* GPSSignalView.swift */; };
+		71575DBC2AAA5AF9003DF55C /* HomeViewController + Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71575DBB2AAA5AF9003DF55C /* HomeViewController + Weather.swift */; };
+		71575DC02AAA77DE003DF55C /* CompassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71575DBF2AAA77DE003DF55C /* CompassViewController.swift */; };
+		7162881D2AB3B40600635525 /* CarouselCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7162881C2AB3B40600635525 /* CarouselCollectionView.swift */; };
+		716C05F92AB26B6700E3C448 /* AltimeterLocationCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716C05F82AB26B6700E3C448 /* AltimeterLocationCollectionViewCell.swift */; };
+		716EC41A2AAE175E001748DF /* HomeViewController + Barometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716EC4192AAE175E001748DF /* HomeViewController + Barometer.swift */; };
+		71708A792AABB4B800D3C6D9 /* DegreeScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71708A782AABB4B800D3C6D9 /* DegreeScaleView.swift */; };
+		71708A7B2AABBAB500D3C6D9 /* GeographyInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71708A7A2AABBAB500D3C6D9 /* GeographyInfoView.swift */; };
+		71708A802AABE51D00D3C6D9 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71708A7F2AABE51D00D3C6D9 /* WeatherView.swift */; };
+		71A82CD52A929419009D3759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A82CD42A929419009D3759 /* AppDelegate.swift */; };
+		71A82CD72A929419009D3759 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A82CD62A929419009D3759 /* SceneDelegate.swift */; };
+		71A82CD92A929419009D3759 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A82CD82A929419009D3759 /* HomeViewController.swift */; };
+		71A82CDE2A92941A009D3759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71A82CDD2A92941A009D3759 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7146EEB22AADBC2A009C0F3A /* HomeViewController + CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController + CollectionView.swift"; sourceTree = "<group>"; };
+		7146EEB42AADBD1A009C0F3A /* AltimeterCoordinateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltimeterCoordinateCollectionViewCell.swift; sourceTree = "<group>"; };
+		71575DA72AA7DAB2003DF55C /* HomeViewController + User Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController + User Location.swift"; sourceTree = "<group>"; };
+		71575DAD2AA7E2A7003DF55C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		71575DAF2AA7E4F0003DF55C /* MapTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTypeViewController.swift; sourceTree = "<group>"; };
+		71575DB72AA9137B003DF55C /* GPSSignalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSSignalView.swift; sourceTree = "<group>"; };
+		71575DBB2AAA5AF9003DF55C /* HomeViewController + Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController + Weather.swift"; sourceTree = "<group>"; };
+		71575DBF2AAA77DE003DF55C /* CompassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewController.swift; sourceTree = "<group>"; };
+		7162881C2AB3B40600635525 /* CarouselCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionView.swift; sourceTree = "<group>"; };
+		716C05F82AB26B6700E3C448 /* AltimeterLocationCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltimeterLocationCollectionViewCell.swift; sourceTree = "<group>"; };
+		716EC4192AAE175E001748DF /* HomeViewController + Barometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController + Barometer.swift"; sourceTree = "<group>"; };
+		71708A782AABB4B800D3C6D9 /* DegreeScaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegreeScaleView.swift; sourceTree = "<group>"; };
+		71708A7A2AABBAB500D3C6D9 /* GeographyInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeographyInfoView.swift; sourceTree = "<group>"; };
+		71708A7F2AABE51D00D3C6D9 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		71A82CD12A929419009D3759 /* AltitudeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AltitudeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71A82CD42A929419009D3759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71A82CD62A929419009D3759 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		71A82CD82A929419009D3759 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		71A82CDD2A92941A009D3759 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71A82CE22A92941A009D3759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71A82CCE2A929419009D3759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71575DA92AA7E17C003DF55C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				71A82CD82A929419009D3759 /* HomeViewController.swift */,
+				7146EEB22AADBC2A009C0F3A /* HomeViewController + CollectionView.swift */,
+				71575DA72AA7DAB2003DF55C /* HomeViewController + User Location.swift */,
+				71575DBB2AAA5AF9003DF55C /* HomeViewController + Weather.swift */,
+				716EC4192AAE175E001748DF /* HomeViewController + Barometer.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		71575DAC2AA7E2A0003DF55C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				71575DAD2AA7E2A7003DF55C /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		715E9BF32A9299870048C30E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				71575DA92AA7E17C003DF55C /* Home */,
+				71708A7C2AABCC7300D3C6D9 /* Compass */,
+				71575DAF2AA7E4F0003DF55C /* MapTypeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		715E9BF42A92998C0048C30E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71575DB72AA9137B003DF55C /* GPSSignalView.swift */,
+				71708A782AABB4B800D3C6D9 /* DegreeScaleView.swift */,
+				71708A7A2AABBAB500D3C6D9 /* GeographyInfoView.swift */,
+				71708A7F2AABE51D00D3C6D9 /* WeatherView.swift */,
+				716C05F82AB26B6700E3C448 /* AltimeterLocationCollectionViewCell.swift */,
+				7146EEB42AADBD1A009C0F3A /* AltimeterCoordinateCollectionViewCell.swift */,
+				7162881C2AB3B40600635525 /* CarouselCollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		715E9BF52A9299940048C30E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				71A82CDD2A92941A009D3759 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		71708A7C2AABCC7300D3C6D9 /* Compass */ = {
+			isa = PBXGroup;
+			children = (
+				71575DBF2AAA77DE003DF55C /* CompassViewController.swift */,
+			);
+			path = Compass;
+			sourceTree = "<group>";
+		};
+		71A82CC82A929419009D3759 = {
+			isa = PBXGroup;
+			children = (
+				71A82CD32A929419009D3759 /* AltitudeApp */,
+				71A82CD22A929419009D3759 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71A82CD22A929419009D3759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71A82CD12A929419009D3759 /* AltitudeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71A82CD32A929419009D3759 /* AltitudeApp */ = {
+			isa = PBXGroup;
+			children = (
+				71575DAC2AA7E2A0003DF55C /* Extensions */,
+				715E9BF52A9299940048C30E /* Assets */,
+				715E9BF42A92998C0048C30E /* View */,
+				715E9BF32A9299870048C30E /* Controller */,
+				71A82CD42A929419009D3759 /* AppDelegate.swift */,
+				71A82CD62A929419009D3759 /* SceneDelegate.swift */,
+				71A82CE22A92941A009D3759 /* Info.plist */,
+			);
+			path = AltitudeApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71A82CD02A929419009D3759 /* AltitudeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71A82CE52A92941A009D3759 /* Build configuration list for PBXNativeTarget "AltitudeApp" */;
+			buildPhases = (
+				71A82CCD2A929419009D3759 /* Sources */,
+				71A82CCE2A929419009D3759 /* Frameworks */,
+				71A82CCF2A929419009D3759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AltitudeApp;
+			productName = AltitudeApp;
+			productReference = 71A82CD12A929419009D3759 /* AltitudeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71A82CC92A929419009D3759 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					71A82CD02A929419009D3759 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 71A82CCC2A929419009D3759 /* Build configuration list for PBXProject "AltitudeApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71A82CC82A929419009D3759;
+			productRefGroup = 71A82CD22A929419009D3759 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71A82CD02A929419009D3759 /* AltitudeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71A82CCF2A929419009D3759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A82CDE2A92941A009D3759 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71A82CCD2A929419009D3759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7146EEB52AADBD1A009C0F3A /* AltimeterCoordinateCollectionViewCell.swift in Sources */,
+				71575DBC2AAA5AF9003DF55C /* HomeViewController + Weather.swift in Sources */,
+				71575DAE2AA7E2A7003DF55C /* Extensions.swift in Sources */,
+				7162881D2AB3B40600635525 /* CarouselCollectionView.swift in Sources */,
+				7146EEB32AADBC2A009C0F3A /* HomeViewController + CollectionView.swift in Sources */,
+				71575DC02AAA77DE003DF55C /* CompassViewController.swift in Sources */,
+				71708A7B2AABBAB500D3C6D9 /* GeographyInfoView.swift in Sources */,
+				71708A802AABE51D00D3C6D9 /* WeatherView.swift in Sources */,
+				71575DB02AA7E4F0003DF55C /* MapTypeViewController.swift in Sources */,
+				71A82CD92A929419009D3759 /* HomeViewController.swift in Sources */,
+				71575DB82AA9137B003DF55C /* GPSSignalView.swift in Sources */,
+				71708A792AABB4B800D3C6D9 /* DegreeScaleView.swift in Sources */,
+				716C05F92AB26B6700E3C448 /* AltimeterLocationCollectionViewCell.swift in Sources */,
+				71A82CD52A929419009D3759 /* AppDelegate.swift in Sources */,
+				71575DA82AA7DAB2003DF55C /* HomeViewController + User Location.swift in Sources */,
+				716EC41A2AAE175E001748DF /* HomeViewController + Barometer.swift in Sources */,
+				71A82CD72A929419009D3759 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		71A82CE32A92941A009D3759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		71A82CE42A92941A009D3759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71A82CE62A92941A009D3759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B43RP5K4GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AltitudeApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Konum bilgileriniz alınsın mı ?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AltitudeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71A82CE72A92941A009D3759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B43RP5K4GM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AltitudeApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Konum bilgileriniz alınsın mı ?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AltitudeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71A82CCC2A929419009D3759 /* Build configuration list for PBXProject "AltitudeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A82CE32A92941A009D3759 /* Debug */,
+				71A82CE42A92941A009D3759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71A82CE52A92941A009D3759 /* Build configuration list for PBXNativeTarget "AltitudeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71A82CE62A92941A009D3759 /* Debug */,
+				71A82CE72A92941A009D3759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71A82CC92A929419009D3759 /* Project object */;
+}
